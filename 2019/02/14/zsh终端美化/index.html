@@ -187,7 +187,7 @@
 }( typeof global !== "undefined" ? global : this ) );
 </script>
 
-    <link rel="icon" href="/assets/huoying.ico">
+    <link rel="icon" href="/assets/naruto.ico">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js" as="script">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" as="script">
     <link rel="preload" href="/scripts/main.js" as="script">
@@ -266,7 +266,7 @@ height:50vh;
                 
                     <div class="post-intro-tags">
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="Ubuntu Beautify Shell">Ubuntu Beautify Shell</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Ubuntu">Ubuntu</a>
     
 </div>
                 
@@ -404,16 +404,16 @@ height:50vh;
         <h1 id="Ubuntu18-04-安装-oh-my-zsh"><a href="#Ubuntu18-04-安装-oh-my-zsh" class="headerlink" title="Ubuntu18.04 安装 oh-my-zsh"></a>Ubuntu18.04 安装 oh-my-zsh</h1><h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install zsh</span><br></pre></td></tr></table></figure>
 <h2 id="安装curl"><a href="#安装curl" class="headerlink" title="安装curl"></a>安装curl</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install curl</span><br></pre></td></tr></table></figure>
 <h2 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"</span><br></pre></td></tr></table></figure>
-<h2 id="使用zsh替换bash"><a href="#使用zsh替换bash" class="headerlink" title="使用zsh替换bash"></a>使用zsh替换bash</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 记住这个需要重启才能生效</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> chsh -s `<span class="built_in">which</span> zsh`</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> or</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> sudo usermod -s /bin/zsh username</span></span><br></pre></td></tr></table></figure>
-<h2 id="修改终端主题和配色"><a href="#修改终端主题和配色" class="headerlink" title="修改终端主题和配色"></a>修改终端主题和配色</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 通过修改~/.zshrc来进行配置，修改如下</span></span><br><span class="line">ZSH_THEME="agnoster"</span><br></pre></td></tr></table></figure>
+<h2 id="使用zsh替换bash"><a href="#使用zsh替换bash" class="headerlink" title="使用zsh替换bash"></a>使用zsh替换bash</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 记住这个需要重启才能生效</span><br><span class="line"><span class="meta">$</span> chsh -s `which zsh`</span><br><span class="line"><span class="meta">#</span> or</span><br><span class="line"><span class="meta">$</span> sudo usermod -s /bin/zsh username</span><br></pre></td></tr></table></figure>
+<h2 id="修改终端主题和配色"><a href="#修改终端主题和配色" class="headerlink" title="修改终端主题和配色"></a>修改终端主题和配色</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 通过修改~/.zshrc来进行配置，修改如下</span><br><span class="line">ZSH_THEME="agnoster"</span><br></pre></td></tr></table></figure>
 <p>到这个<a href="https://github.com/powerline/fonts" target="_blank" rel="noopener">Github</a>网站下载安装<code>Powerline</code>字体</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 克隆</span></span><br><span class="line">git clone https://github.com/powerline/fonts.git</span><br><span class="line"><span class="meta">#</span><span class="bash"> 进入<span class="built_in">clone</span>的位置</span></span><br><span class="line">sudo ./install.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 克隆</span><br><span class="line">git clone https://github.com/powerline/fonts.git</span><br><span class="line"><span class="meta">#</span> 进入clone的位置</span><br><span class="line">sudo ./install.sh</span><br></pre></td></tr></table></figure>
 <h2 id="修改终端配置"><a href="#修改终端配置" class="headerlink" title="修改终端配置"></a>修改终端配置</h2><p>将字体更改为<code>Ubuntu Mono derivative Powerline</code></p>
 <p><img src="https://i.loli.net/2018/10/28/5bd57e20d1fcc.png" alt="1540715348343"></p>
 <p>修改主题方案即<code>Build-in-schemes</code>为<code>Solarized dark</code></p>
 <p>修改配色方案为<code>Solarized</code></p>
 <p><img src="https://i.loli.net/2018/10/28/5bd57e7f621d2.png" alt="1540715504501"></p>
-<h2 id="隐藏用户和主机名"><a href="#隐藏用户和主机名" class="headerlink" title="隐藏用户和主机名"></a>隐藏用户和主机名</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span>  ~/.oh-my-zsh/themes</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> cp agnoster.zsh-theme myagnoster.zsh-theme</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> vi ~/.zshrc</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 再修改.zshrc文件中的ZSH_THEME并添加DEFAULT_USER</span></span><br><span class="line">ZSH_THEME="myagnoster"</span><br><span class="line">export DEFAULT_USER="username" #这里的username就是username不要改动</span><br></pre></td></tr></table></figure>
+<h2 id="隐藏用户和主机名"><a href="#隐藏用户和主机名" class="headerlink" title="隐藏用户和主机名"></a>隐藏用户和主机名</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> cd  ~/.oh-my-zsh/themes</span><br><span class="line"><span class="meta">$</span> cp agnoster.zsh-theme myagnoster.zsh-theme</span><br><span class="line"><span class="meta">$</span> vi ~/.zshrc</span><br><span class="line"><span class="meta">#</span> 再修改.zshrc文件中的ZSH_THEME并添加DEFAULT_USER</span><br><span class="line">ZSH_THEME="myagnoster"</span><br><span class="line">export DEFAULT_USER="username" #这里的username就是username不要改动</span><br></pre></td></tr></table></figure>
 <h2 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h2><p><img src="https://i.loli.net/2018/10/28/5bd57ec5025a6.png" alt="1540716630175"></p>
 <p>参考链接：</p>
 <p><a href="https://www.cnblogs.com/lfoder/p/7736171.html" target="_blank" rel="noopener">Linux终端美化</a></p>
@@ -427,6 +427,11 @@ height:50vh;
     <!-- paginator  -->
     <ul class="post-paginator">
         <li class="next">
+            
+                <div class="nextSlogan">Next Post</div>
+                <a href="/2019/04/28/蓝桥杯省赛总结/" title="蓝桥杯省赛总结">
+                    <div class="nextTitle">蓝桥杯省赛总结</div>
+                </a>
             
         </li>
         <li class="previous">
@@ -487,10 +492,6 @@ height:50vh;
     
         
     
-        
-            
-                <a href="//weibo.com/p/1005056054298415/home" class="iconfont-archer weibo" target="_blank" title="weibo"></a>
-            
         
     
         
@@ -595,9 +596,18 @@ top:50vh;
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 3
         </div>
         <!-- search  -->
         
@@ -613,7 +623,7 @@ top:50vh;
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">02/14</span><a class="archive-post-title" href="/2019/02/14/zsh终端美化/">zsh终端美化</a>
+            <span class="archive-post-date">04/28</span><a class="archive-post-title" href="/2019/04/28/蓝桥杯省赛总结/">蓝桥杯省赛总结</a>
         </li>
     
     
@@ -630,12 +640,28 @@ top:50vh;
             <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href="/2019/01/24/hello-world/">Hello World</a>
         </li>
     
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> 2019 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">02/14</span><a class="archive-post-title" href="/2019/02/14/zsh终端美化/">zsh终端美化</a>
+        </li>
+    
     </ul></div>
   </div>
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
     
-        <span class="sidebar-tag-name" data-tags="Ubuntu Beautify Shell"><span class="iconfont-archer">&#xe606;</span>Ubuntu Beautify Shell</span>
+        <span class="sidebar-tag-name" data-tags="Ubuntu"><span class="iconfont-archer">&#xe606;</span>Ubuntu</span>
+    
+        <span class="sidebar-tag-name" data-tags="经验,算法"><span class="iconfont-archer">&#xe606;</span>经验,算法</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
